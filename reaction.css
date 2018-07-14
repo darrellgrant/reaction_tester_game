@@ -1,0 +1,39 @@
+        body{
+            font-family: sans-serif;
+            background-color: lightgray;
+        }
+        #banner {
+            font-size: 80px;
+            color: #ccc;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+            background-color: cornflowerblue;
+        }
+        #shape {
+            height:200px;
+            width:200px;
+            /*background-color: red;*/
+            display: none;
+            position:relative;
+        }
+        .bold {
+            font-weight:bold;
+        }
+        #info {
+            width: 500px;
+            margin: 0 auto;
+        }
+        .button {
+            height:50px;
+            width: 80pxpx;
+            background-color: black;
+            color: white;
+            /*border-radius: 20px; */
+            border: none; 
+        }
+        
+        #resetGame{
+            display: none;
+        }
+       
