@@ -36,11 +36,14 @@
         #resetGame{
             display: none;
         }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
     #banner{
-        width:340px;
+        width:100%;
         font-size: 40px;
         height: 60px;
+    }
+    #info{
+        width:100%
     }
 }
        
