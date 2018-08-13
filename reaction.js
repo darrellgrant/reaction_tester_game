@@ -1,3 +1,8 @@
+ 
+   
+        
+
+
     var start = new Date().getTime(); //time when page loads
     function getRandomColor() {
                 
@@ -72,9 +77,12 @@ var width = (Math.random() * 300) + 100;//so shape will be at least 100px
     }
     
     
+    var beep = new Audio("sounds/beep.mp3");
+    
     
     document.getElementById("shape").onclick = function() {
         document.getElementById("shape").style.display = "none";
+        beep.play();
         var end = new Date().getTime();
         var timeTaken = (end - start)/1000;
         //alert(timeTaken);
@@ -116,3 +124,5 @@ var width = (Math.random() * 300) + 100;//so shape will be at least 100px
         document.getElementById("resetGame").style.display = "none";
         window.location.reload();
     }
+    
+   

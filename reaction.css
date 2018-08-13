@@ -1,10 +1,10 @@
         body{
             font-family: sans-serif;
-            background-color: lightgray;
+            background-color: #eee;
         }
         #banner {
             font-size: 80px;
-            color: #ccc;
+            color: #fff;
             text-align: center;
             height: 100px;
             width: 100%;
@@ -36,4 +36,11 @@
         #resetGame{
             display: none;
         }
+@media screen and (max-width: 600px){
+    #banner{
+        width:340px;
+        font-size: 40px;
+        height: 60px;
+    }
+}
        
