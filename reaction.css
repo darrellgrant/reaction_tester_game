@@ -11,11 +11,12 @@
             background-color: cornflowerblue;
         }
         #shape {
-            height:200px;
-            width:200px;
+            height:150px;
+            width:150px;
             /*background-color: red;*/
             display: none;
             position:relative;
+            visibility: hidden;
         }
         .bold {
             font-weight:bold;
@@ -36,12 +37,59 @@
         #resetGame{
             display: none;
         }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 500px){
     #banner{
-        width:340px;
-        font-size: 40px;
+        width:100%;
+        font-size: 50px;
         height: 60px;
+    }
+    #info{
+        width:100%;
+    }
+    h1 {
+        font-size:150%;
         
     }
+
 }
+
+
+
+@media screen and (max-width: 400px){
+    #banner{
+        width:100%;
+        font-size: 40px;
+        height: 50px;
+    }
+    #info{
+        width:100%;
+    }
+    h1 {
+        font-size:120%;
+        
+    }
+
+}
+
+@media screen and (max-width: 300px){
+     #banner{
+        width:100%;
+        font-size: 15px;
+        height: 20px;
+    }
+    #info{
+        width:100%;
+        
+    }
+    h1 {
+        font-size:60%;
+        
+    }
+    
+    
+
+}
+       
+
        
