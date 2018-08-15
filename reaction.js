@@ -1,9 +1,14 @@
- 
-   
-        
-
-
     var start = new Date().getTime(); //time when page loads
+    
+    //button that starts the game
+    //time starts (effectively) when START button is pushed
+    //variable start is updated
+     document.getElementById("startGame").onclick = function(){
+         document.getElementById("shape").style.visibility = "visible";
+         start = new Date().getTime();
+                     }
+
+
     function getRandomColor() {
                 
                 var letters = '0123456789ABCDEF'.split(''); //Split a string into an array of substrings
@@ -29,7 +34,7 @@ var width = (Math.random() * 300) + 100;//so shape will be at least 100px
         //var height = Math.random() * 500;
         
         var top = Math.random() * 400;
-        var left = Math.random() * 600;
+        var left = Math.random() * 1200;
         //make circle 50% of time
         if (Math.random() > 0.5) {
 

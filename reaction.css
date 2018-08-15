@@ -11,11 +11,12 @@
             background-color: cornflowerblue;
         }
         #shape {
-            height:200px;
-            width:200px;
+            height:150px;
+            width:150px;
             /*background-color: red;*/
             display: none;
             position:relative;
+            visibility: hidden;
         }
         .bold {
             font-weight:bold;
