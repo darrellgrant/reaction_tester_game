@@ -4,10 +4,10 @@
             margin: 0px;
         }
         #banner {
-            font-size: 80px;
+            font-size: 30px;
             color: #fff;
             text-align: center;
-            height: 100px;
+            height: 40px;
             width: 100%;
             background-color: cornflowerblue;
         }
@@ -28,24 +28,55 @@
         }
         .button {
             height:50px;
-            width: 80pxpx;
             background-color: black;
             color: white;
             /*border-radius: 20px; */
             border: none; 
+            cursor: pointer;
         }
         
         #resetGame{
             display: none;
         }
+        
+        .buttonSpace {
+            float: left;
+        }
 
         #container {
             width: 1000px;
             height: 600px;
-            margin: 0 auto;
-            background-color: #555;
+            margin: 0px auto;
+/*            background-color: #555;*/
             position:relative;
+            clear:both;
         }
+#time{
+    position: relative;
+    bottom: 15px;
+}
+
+#startSpace {
+    width: 70px;
+    height: 100px;
+}
+
+#timeSpace {
+    width: 100px;
+    height:100px;
+}
+
+#averageSpace {
+    width: 125px;
+    height: 100px;
+    
+}
+
+#resetSpace {
+    width: 50px;
+    height: 100px;
+    margin-left: 10px;
+}
 @media screen and (max-width: 500px){
     #banner{
         width:100%;
