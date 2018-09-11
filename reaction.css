@@ -1,6 +1,7 @@
         body{
             font-family: sans-serif;
             background-color: #eee;
+            margin: 0px;
         }
         #banner {
             font-size: 80px;
@@ -15,7 +16,7 @@
             width:150px;
             /*background-color: red;*/
             display: none;
-            position:relative;
+            position:absolute;
             visibility: hidden;
         }
         .bold {
@@ -38,6 +39,13 @@
             display: none;
         }
 
+        #container {
+            width: 1000px;
+            height: 600px;
+            margin: 0 auto;
+            background-color: #555;
+            position:relative;
+        }
 @media screen and (max-width: 500px){
     #banner{
         width:100%;
