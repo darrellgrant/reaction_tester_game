@@ -27,14 +27,14 @@
     var count = -1;
     var totalTime = 0;
     var avgTime = 0;
-var width = (Math.random() * 300) + 100;//so shape will be at least 100px
+var width = (Math.random() * 200) + 100;//so shape will be at least 100px
 
     function makeShapeAppear() {
         
         //var height = Math.random() * 500;
         
         var top = Math.random() * 400;
-        var left = Math.random() * 1200;
+        var left = Math.random() * 800;
         //make circle 50% of time
         if (Math.random() > 0.5) {
 
