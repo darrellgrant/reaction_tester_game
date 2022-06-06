@@ -105,7 +105,7 @@ document.getElementById("displayAvg").onclick = function () {
   document.getElementById("showAvgTime").innerHTML =
     "Your average time was " + avgTime.toFixed(3) + " seconds";
   document.getElementById("resetGame").style.display = "block";
-  
+  localStorage.setItem("avgTime", avgTime);
 };
 
 document.getElementById("resetGame").onclick = function () {
